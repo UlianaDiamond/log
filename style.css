@@ -1,0 +1,64 @@
+body {
+	background-color: #ebeced;
+}
+
+.logo {
+	border-style: solid;
+
+	margin: 0 0;
+	background-color: white;
+	border-color: white;
+	width: 1000px;
+	height: 50px;
+	text-transform: uppercase;
+	font-family: Montserrat Bold;
+}
+
+.form {
+	margin: 150px auto;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-color: #d8dce5;
+	width: 250px;
+	height: 200px;
+  padding: 20px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+  flex-direction: column;
+	background-color: white;
+  border-radius: 20px;
+
+}
+
+.enter {
+  font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.form input {
+	width: 230px;
+	font-family: Montserrat light;
+  font-size: 15px;
+  padding: 10px;
+  margin: 5px 0px;
+	border-style: solid;
+	border-color: #aaafb5;
+	border-radius: 10px;
+}
+
+.btn {
+  font-size: 20px;
+  font-family: Montserrat Regular;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 8px 50px;
+  color: white;
+  background: #21b0ed;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
